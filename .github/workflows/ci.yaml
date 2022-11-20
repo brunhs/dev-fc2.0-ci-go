@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: false
-          tags: bruns/dev-fc2.0-ci-go
+          tags: bruns/dev-fc2.0-ci-go:latest
